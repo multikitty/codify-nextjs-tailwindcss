@@ -46,7 +46,7 @@ const Navbar = () => {
 
       {/* {sideNav && */}
       <div className={sideNav ? ' ease-in-out duration-100' : 'hidden'}>
-        <div focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 ">
+        <div focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white p-4 ">
           <div className="flex h-9 items-center justify-between">
             <div className="flex">
               <h2 className='inline-block rounded-lg  py-2 text-2xl leading-6 text-black font-bold '>CodeBuz</h2>
